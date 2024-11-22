@@ -9,7 +9,8 @@
     "frames.js": "^0.20.0",
     "next": "^14.1.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@frames.js/debugger": "^0.3.19",
