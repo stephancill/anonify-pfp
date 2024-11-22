@@ -1,7 +1,7 @@
-import { getCloudinaryProxyUrl } from "@/lib/cloudinary";
 import { farcasterHubContext } from "frames.js/middleware";
 import { Button } from "frames.js/next";
 import { frames } from "./frames";
+import { getCloudinaryProxyUrl } from "../../lib/cloudinary";
 
 const handleRequest = frames(
   async (ctx) => {
@@ -17,7 +17,7 @@ const handleRequest = frames(
         imageOptions: {
           aspectRatio: "1:1",
         },
-        buttons: [<Button action="post">Anonify</Button>],
+        buttons: [<Button action="post">Anonify me</Button>],
       };
     }
 
